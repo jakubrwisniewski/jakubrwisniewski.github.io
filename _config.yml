@@ -2,8 +2,6 @@ theme: jekyll-theme-tactile
 baseurl: /page
 paginate: 5
 paginate_path: "/:num/"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
+sass:
+  sass_dir: _styles
+  style: compact
