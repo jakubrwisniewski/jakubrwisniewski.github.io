@@ -1,1 +1,9 @@
-theme: jekyll-theme-tactile 
+theme: jekyll-theme-tactile
+permalink: /:title/
+paginate: 5
+paginate_path: "/:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
