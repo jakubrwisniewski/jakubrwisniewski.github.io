@@ -4,4 +4,4 @@ paginate: 5
 paginate_path: "/:num/"
 sass:
   sass_dir: _styles
-  style: compact
+  style: compressed
