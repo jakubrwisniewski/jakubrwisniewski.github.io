@@ -1,12 +1,9 @@
-<!doctype html>
-<html lang="en">
 
-{% include head.html %}
+{% capture article %}
+<article>
+	{{ content }}
+</article>
+{% endcapture %}
 
-<body>
-	<article>
-		{{ content }}
-	</article>
-</body>
 
-</html>
+{% include main.html content=article %}
