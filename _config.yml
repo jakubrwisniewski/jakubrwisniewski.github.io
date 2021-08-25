@@ -1,5 +1,5 @@
 theme: jekyll-theme-tactile
-permalink: page/:year-:month-:day-:title
+baseurl: /page
 paginate: 5
 paginate_path: "/:num/"
 plugins:
