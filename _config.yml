@@ -2,6 +2,3 @@ theme: jekyll-theme-tactile
 baseurl: /page
 paginate: 5
 paginate_path: "/:num/"
-sass:
-  sass_dir: _styles
-  style: compressed

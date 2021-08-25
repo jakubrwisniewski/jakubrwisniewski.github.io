@@ -9,4 +9,8 @@ html, body {
 	box-sizing: border-box;
 }
 
-@import "theme";
+article {
+	padding: 10px;
+	font-style: italic;
+	color: purple;
+}
