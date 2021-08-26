@@ -2,13 +2,13 @@
 layout: home
 ---
 
-<section>
+<section class="home-posts">
   {% for post in site.posts %}
 	<article>
 		<h3>
 			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		</h3>
-		<p>{{ post.content }}</p>
+		{{ post.content | remove_first:post.title }}
 	</article>
   {% endfor %}
 </section>
