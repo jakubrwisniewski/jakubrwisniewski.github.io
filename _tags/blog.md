@@ -2,4 +2,4 @@
 tag: blog
 ---
 
-{% inlude tagged-posts.html %}
+{% include tagged-posts.html %}
