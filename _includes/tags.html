@@ -1,0 +1,8 @@
+<div class="tags">
+{% for(tag in include.tags) %}
+	{% assign slug = tag | slugify: "raw" %}
+	<a class="tag" href={{ site.baseurl | append: "/tags/" | append: slug }}>
+		#{{ tag }}
+	</a>
+{% endfor %}
+</div>
