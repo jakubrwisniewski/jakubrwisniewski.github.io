@@ -1,11 +1,7 @@
-{% capture content %}
-	<div class="tags">
+<div class="tags">
 	{% for tag in include.tags %}
-		<a class="tag" href="/tags/{{ tag }}">
-			#{{ tag }}
-		</a>
+	<a class="tag" href="/tags/{{ tag }}">
+		#{{ tag }}
+	</a>
 	{% endfor %}
-	</div>
-{% endcapture %}
-
-{% include main.html content=content %}
+</div>
