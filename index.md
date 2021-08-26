@@ -8,7 +8,7 @@ layout: home
 		<h3>
 			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		</h3>
-		{{ post.excerpt }}
+		{{ post.content }}
 	</article>
   {% endfor %}
 </section>
