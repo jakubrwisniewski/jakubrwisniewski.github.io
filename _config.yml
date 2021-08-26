@@ -2,3 +2,7 @@ theme: jekyll-theme-tactile
 paginate: 5
 paginate_path: "/:num/"
 excerpt_separator: <!--more-->
+collections:
+  tags:
+    output: true
+    permalink: tags/:name
