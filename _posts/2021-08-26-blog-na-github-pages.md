@@ -1,6 +1,7 @@
 ---
 title: Blog na GitHub Pages?
 layout: post
+tags: blog post start
 ---
 
 Nikt nie mówił, że będzie łatwo, a czasami łatwo nie było. Mimo wszystko udało mi się stworzyć bloga na GitHub'ie.
