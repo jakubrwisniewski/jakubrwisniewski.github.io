@@ -4,6 +4,6 @@ layout: home
 
 <section class="home-posts">
   {% for post in site.posts %}
-	{% include post-inline.html post=post %}
+	{% include inline/post.html post=post %}
   {% endfor %}
 </section>
