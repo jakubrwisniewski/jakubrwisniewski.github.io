@@ -2,10 +2,13 @@
 layout: home
 ---
 
-<ul>
+<section>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
+	<article>
+		<h3>
+			<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+		</h3>
+		<p>{{ post.content }}</p>
+	</article>
   {% endfor %}
-</ul>
+</section>
